@@ -37,10 +37,10 @@ pip install pandas prophet numpy optuna scikit-learn matplotlib seaborn
 2. **Run the Script:** Execute the script from your terminal:
 
    ```bash
-   python your_script_name.py
+   python script.py
    ```
 
-   *(Replace `your_script_name.py` with the actual name of the file.)*
+  
 
 3. **Output:** The script will print progress updates, including validation MAE summaries, and generate the `submission_prophet_optuna.csv` file.
 
@@ -74,24 +74,24 @@ pip install pandas prophet numpy optuna scikit-learn matplotlib seaborn
 #### Raw Data
 
 - **Histograms:** Help identify unusual distributions and outliers.
-  ![Raw Data Histogram](assets/fig_1.png)
+  ![Raw Data Histogram](assests/fig_1.png)
 
 - **Time Series Plots:** Reveal seasonality, trends, and gaps in data.
-  ![Raw Data Time Series](assets/fig_2.png)
+  ![Raw Data Time Series](assests/fig_2.png)
 
 #### Processed Data
 
 - **Histograms after preprocessing:** Show cleaned distributions.
-  ![Processed Data Histogram](assets/fig_3.png)
+  ![Processed Data Histogram](assests/fig_3.png)
 
 - **Time Series Plots after preprocessing:** Present consistent temperature scales and reduced outliers.
-  ![Processed Data Time Series](assets/fig_4.png)
+  ![Processed Data Time Series](assests/fig_4.png)
 
 ### Hyperparameter Tuning with Optuna
 
 Optuna automates the search for optimal Prophet settings. It iteratively suggests parameter combinations that minimize validation MAE.
 
-![Optuna Tuning Progress](assets/fig_5.png)
+![Optuna Tuning Progress](assests/fig_5.png)
 
 ### Configuration
 
